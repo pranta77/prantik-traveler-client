@@ -4,12 +4,12 @@ export default function () {
   const [deleted, setDeleted] = useState([]);
   console.log(deleted);
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://prantik-traveller-server.vercel.app/users")
       .then((res) => res.json())
       .then((data) => setDeleted(data));
   }, []);
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/users/${id}`;
+    const url = `https://prantik-traveller-server.vercel.app/users/${id}`;
     fetch(url, {
       method: "DELETE",
     })

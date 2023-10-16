@@ -5,7 +5,7 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:5000/users";
+    const url = "https://prantik-traveller-server.vercel.app/users";
 
     fetch(url)
       .then((res) => res.json())

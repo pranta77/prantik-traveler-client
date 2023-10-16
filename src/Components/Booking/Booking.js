@@ -8,7 +8,7 @@ export default function Booking() {
   const [book, setBook] = useState({});
   // console.log(book);
   useEffect(() => {
-    fetch(`http://localhost:5000/users/${bookId}`)
+    fetch(`https://prantik-traveller-server.vercel.app/users/${bookId}`)
       .then((res) => res.json())
       .then((data) => setBook(data));
   }, []);

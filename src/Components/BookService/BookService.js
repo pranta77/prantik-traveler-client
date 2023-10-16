@@ -7,7 +7,7 @@ const BookService = () => {
 
   const onSubmit = (data) => {
     axios
-      .post("http://localhost:5000/users", data)
+      .post("https://prantik-traveller-server.vercel.app/users", data)
 
       .then((res) => {
         if (res.data.insertedId) {
