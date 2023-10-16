@@ -1,0 +1,50 @@
+[
+  {
+    "name": "France",
+    "price": "2000",
+    "img": "https://i.ibb.co/HXPfPfv/France.webp",
+    "description": "La vie est trop courte pour boire du mauvais vin. Literal translation: “Life is too short to drink bad wine.” Actual meaning: This saying can be used both literally and figuratively. The idea is that life's too short to do things that you don't like."
+  },
+  {
+    "name": "Mexico",
+    "price": "2500",
+    "img": "https://i.ibb.co/nrMvFh3/Mexico.webp",
+    "description": "Agua que no has de beber, déjala correr – Anonymous. Literal translation: Water that you must not drink, let it run. This Mexican proverb warns us not to get involved in something that we won't be able to face later."
+  },
+  {
+    "name": "Hungary",
+    "price": "2800",
+    "img": "https://i.ibb.co/6Hf3JYg/Hungary-1.webp",
+    "description": "In addition, people tend to find words that have a nice meaning also nice-sounding. The newspaper collected the following words: szerelem (love), béke (peace), szeretet (love), szabadság (freedom), szellő (breeze), édesanya (mother), haza (homeland), szív (heart), élet (life), csillag (star)"
+  },
+  {
+    "name": "Croatia",
+    "price": "3000",
+    "img": "https://i.ibb.co/86bfrFc/Croatia.webp",
+    "description": "Croatia is known for its beaches, with close to 2,500 miles of coastline between its islands and the mainland. Croatia's major coastal cities, including Split and Dubrovnik, are within easy reach of some top beaches, such as Split's city beach, Bačvice."
+  },
+  {
+    "name": "Denmark",
+    "price": "3300",
+    "img": "https://i.ibb.co/vX7BqGX/Denmark-1.webp",
+    "description": "Good men must die, but death cannot kill their names.” “If you would live healthily, be old early.” “You have either to suffer a lot or die young.” “If I die, I forgive you If I live, we shall see."
+  },
+  {
+    "name": "Turkey",
+    "price": "3500",
+    "img": "https://i.ibb.co/N1F0kM6/Turkey.webp",
+    "description": "Turkey is a beautiful country surrounded by sea on 3 sides. The Mediterranean in the south, the Aegean Sea, and the Black Sea to the north and northwest take place in Turkey's overland waters,including the Strait of Dardanelles and Bosporus involve the Marmara Sea."
+  },
+  {
+    "name": "Italy",
+    "price": "4000",
+    "img": "https://i.ibb.co/KWW0trd/ITALY-1.webp",
+    "description": "Finché C'È Vita C'È Speranza – While There's Life, There's Hope. Ride Bene Chi Ride Ultimo – He Who Laughs Last, Laughs Longest. Nulla Nuova, Buona Nuova – No News Is Good News. Meglio Tardi Che Mai – Better Late Than Never."
+  },
+  {
+    "name": "Spain",
+    "price": "4200",
+    "img": "https://i.ibb.co/XWHQ5Zj/Spain.webp",
+    "description": "Like Spain, I am bound to the past.The air soft as that of Seville in April, and so fragrant that it was delicious to breathe it.Granada; more dazzling than the flower and more flavourful than the fruit it is named after, like a virgin lying in the sun."
+  }
+]
