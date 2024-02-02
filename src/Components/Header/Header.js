@@ -30,12 +30,12 @@ const Header = () => {
         {users.email ? (
           <>
             <button
-              className="hover:bg-orange-500 p-2 rounded-xl"
+              className="hover:bg-red-600 p-2 rounded-xl"
               onClick={logOut}
             >
               Logout
             </button>
-            <h2 className="bg-pink-600 p-1 rounded-xl">{users.displayName}</h2>
+            <h2 className=" bg-black p-2 rounded-xl">{users.displayName}</h2>
             <NavLink
               as={Link}
               to="/bookservice"
@@ -49,9 +49,6 @@ const Header = () => {
               className="hover:bg-amber-900 p-2 rounded-xl"
             >
               Delete Book
-            </NavLink>
-            <NavLink className="hover:bg-amber-900 p-2 rounded-xl">
-              full
             </NavLink>
           </>
         ) : (

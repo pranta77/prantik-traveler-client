@@ -10,7 +10,7 @@ const NextDestiny = () => {
         if you have to. Find out how other people live and eat and cook. Learn
         from them – wherever you go.
       </h2>
-      <div className="grid grid-cols-2 m-16 gap-6">
+      <div className="grid grid-cols-2 m-16 gap-6 border-gray-950 border-4 p-10 bg-red-100">
         <div>
           <div className="w-fit">
             <img src="https://i.ibb.co/mqdgBZp/tajikistan.webp" alt="" />

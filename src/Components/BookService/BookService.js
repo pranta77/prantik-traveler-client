@@ -12,9 +12,9 @@ const BookService = () => {
       .then((res) => {
         if (res.data.insertedId) {
           alert("Added Successfully To You");
-          reset();
         }
       });
+    reset();
   };
   return (
     <div>
@@ -25,7 +25,7 @@ const BookService = () => {
         onSubmit={handleSubmit(onSubmit)}
       >
         <input
-          className=" border-2 border-sky-800 mb-5 w-96  rounded-lg px-2"
+          className=" border-2 border-sky-800 mb-5 w-96  rounded-sm px-2"
           {...register("name")}
           placeholder="Country name"
         />
@@ -35,17 +35,20 @@ const BookService = () => {
           placeholder="Description"
         />
         <input
-          className=" border-2 border-sky-800 mb-5 w-96 rounded-lg px-2 "
+          className=" border-2 border-sky-800 mb-5 w-96 rounded-sm px-2 "
           type="number"
-          {...register("prcie")}
+          {...register("price")}
           placeholder="Price"
         />
         <input
-          className=" border-2 border-sky-800 mb-5 w-96 rounded-lg px-2"
+          className=" border-2 border-sky-800 mb-5 w-96 rounded-sm px-2"
           {...register("img")}
           placeholder="Image URL"
         />
-        <input className=" border-2 border-red-700 w-96" type="submit" />
+        <input
+          className=" border-2 bg-cyan-700 border-red-700 w-96 py-2 cursor-pointer"
+          type="submit"
+        />
       </form>
     </div>
   );

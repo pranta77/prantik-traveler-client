@@ -8,7 +8,7 @@ const Service = ({ service }) => {
   return (
     <div>
       <div className="bg-red-200 rounded-lg px-10 py-10">
-        <img className="rounded-xl" width={"100%"} src={img} alt="" />
+        <img className="rounded" width={"100%"} src={img} alt="" />
         <h2 className="text-3xl font-medium">{name}</h2>
         <p className="text-justify">{description}</p>
         <h2 className="text-4xl">{prcie}</h2>
